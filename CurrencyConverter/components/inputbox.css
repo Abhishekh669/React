@@ -1,0 +1,31 @@
+.from-currency, .to-currency{
+    position: relative;
+    left : 5%;
+    height : 25%;
+    width : 80%;
+    background-color: rgba(172, 164, 164, 0.403);
+    border-radius : 5px;
+    padding : 30px; 
+    display : flex;
+    font-size : 20px;
+    justify-content: space-between;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top : 15px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    
+}
+
+.inputamount, .inputcurrency, .outputamount, .outputcurrency{
+    display  : flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+select, input{
+    width : 90px;
+    border-radius  : 5px;
+    height : 25px;
+    outline : none;
+    border  : transparent;
+}
+

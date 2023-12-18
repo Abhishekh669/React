@@ -1,0 +1,52 @@
+#screen{
+  height: 100vh;
+  width : 100vw;
+  background : linear-gradient(135deg, rgb(9, 9, 212), rgb(5, 171, 236));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://media.istockphoto.com/id/1051617040/photo/double-explosure-with-businesss-charts-of-graph-and-rows-of-coins-for-finance-at-night-city.jpg?s=1024x1024&w=is&k=20&c=gLP1mUJH3gqXmQUyZt2NAnwaATR0lc8YvXLiobeCgkQ=");
+}
+
+#main-box{
+  width : 40%;
+  height : 60%;
+  background-color: rgb(16, 71, 93, 0.6);
+  border-radius : 10px;
+  padding : 20px;
+  
+  
+
+
+
+}
+button{
+  height: 8%;
+  width : 15%;
+  border-radius : 5px;
+  outline : none;
+  border : transparent;
+  color : white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size : 16px;
+  background-color: rgb(0, 0, 255);
+  position: relative;
+  left : 43%;
+  top : 2%;
+}
+
+button#convert{
+  height : 9%;
+  width : 80%;
+  position : relative;
+  left : 10%;
+
+}
+
+button:hover{
+  border : 2px solid black;
+}
+ 
+button:active{
+  background-color: rgb(8, 101, 8);
+}
